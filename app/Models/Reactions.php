@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Reactions extends Model
 {
     public $timestamps = false;
-    protected $fillable = ['id','heroe_id','likes','dislikes'];
+    protected $fillable = ['id','heroe_id','likes','dislikes','thumbnail','name'];
 }

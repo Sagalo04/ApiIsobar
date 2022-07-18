@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string("heroe_id");
             $table->integer("likes");
             $table->integer("dislikes");
+            $table->string("name");
+            $table->string("thumbnail");
             $table->timestamps();
         });
     }
